@@ -1,0 +1,26 @@
+{
+    "name": "ezJSlog",
+    "description": "Easy JS level logging framework.",
+    "namespace": "UWMadison\\ezJSlog",
+    "authors": [
+        {
+            "name": "Adam Nunez",
+            "email": "Adam.Nunez@ctri.wisc.edu",
+            "institution": "UW Madison - Center for Tobacco Research and Intervention "
+        }
+    ],
+    "permissions": [
+        "redcap_every_page_top"
+    ],
+    "framework-version": 5,
+    "project-settings": [
+        {
+            "key": "descriptive",
+            "name": "ezJSlog exposes JS functions under the 'ez' global that can be used to log actions to the project log. You can use these functions in shazam or other External Modules.",
+            "type": "descriptive"
+        }
+    ],
+    "compatibility": {
+        "redcap-version-min": "10.0.0"
+    }
+}
