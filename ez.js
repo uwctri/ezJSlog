@@ -28,6 +28,6 @@ ez.log = function(action, changes) {
     action = action || "";
     changes = changes || "";
     let record = getParameterByName('id');
-    let eventid = getParameterByName('event');
+    let eventid = getParameterByName('event_id');
     ez.loge( action, changes, record, eventid, pid);
 }
