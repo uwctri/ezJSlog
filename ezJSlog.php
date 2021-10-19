@@ -18,7 +18,7 @@ class ezJSlog extends AbstractExternalModule {
         $this->includeJs('ez.js');
         
         // Custom Config page
-        if (strpos(PAGE, 'ExternalModules/manager/project.php') !== false && $project_id != NULL) {
+        if (strpos(PAGE, 'manager/project.php') !== false && $project_id != NULL) {
             $this->includeJs('config.js');
         }
     }
