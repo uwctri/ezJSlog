@@ -16,3 +16,7 @@ Log an exact record and event id using `loge`. The pid passed must match the cur
 
 This EM isn't yet available to install via redcap's EM database so you'll need to install to your modules folder (i.e. `redcap/modules/ezJSlog_v1.0.0`) manually.
 
+## Call outs
+
+* There is no real need to use this module and no CTRI EM's use it anymore. Just impliment logging on a per EM or use the more robust "emLogger" by Andy Martin.
+
